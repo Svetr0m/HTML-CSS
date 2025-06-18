@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Healthy Food Restaurant</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="#">Healthy Food</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">О нас</a></li>
+        <li class="nav-item"><a class="nav-link" href="#services">Услуги</a></li>
+        <li class="nav-item"><a class="nav-link" href="#menu">Меню</a></li>
+        <li class="nav-item"><a class="nav-link" href="#reviews">Отзывы</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Контакты</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section class="lagaet text-white text-center d-flex align-items-center justify-content-center fade-in">
+  <div>
+    <h1>Свежая и полезная еда каждый день</h1>
+    <p>Мы заботимся о вашем здоровье</p>
+    <a href="#menu" class="btn btn-success btn-lg mt-3">Заказать сейчас</a>
+  </div>
+</section>
+
+<section id="about" class="about py-5 fade-in">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <img src="about.jpg" alt="О нас" class="img-fluid">
+      </div>
+      <div class="col-md-6">
+        <h2>О нас</h2>
+        <p>Мы предлагаем свежие, органические и полезные блюда, приготовленные с любовью и заботой о вашем здоровье.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="services" class="services py-5 bg-light text-center fade-in">
+  <div class="container">
+    <h2>Наши услуги</h2>
+    <div class="row mt-4">
+      <div class="col-md-4"><div class="icon mb-3">🥗</div><h5>Здоровые салаты</h5></div>
+      <div class="col-md-4"><div class="icon mb-3">🍵</div><h5>Органические напитки</h5></div>
+      <div class="col-md-4"><div class="icon mb-3">🍛</div><h5>Полноценные блюда</h5></div>
+    </div>
+  </div>
+</section>
+
+<section id="menu" class="py-5 bg-light fade-in">
+  <div class="container text-center">
+    <h2 class="mb-4">Наше меню</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="salad1.jpg" class="card-img-top" alt="Салат">
+          <div class="card-body">
+            <h5 class="card-title">Салат Цезарь</h5>
+            <p class="card-text">Цена: 450₽</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="dish1.jpg" class="card-img-top" alt="Блюдо">
+          <div class="card-body">
+            <h5 class="card-title">Овощное рагу</h5>
+            <p class="card-text">Цена: 390₽</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="smoothie.jpg" class="card-img-top" alt="Смузи">
+          <div class="card-body">
+            <h5 class="card-title">Зелёный смузи</h5>
+            <p class="card-text">Цена: 250₽</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="reviews" class="py-5 fade-in">
+  <div class="container text-center">
+    <h2 class="mb-4">Отзывы</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <img src="customer1.jpg" class="rounded-circle mb-3" width="100" alt="Клиент">
+        <p>«Очень вкусно и полезно!»</p>
+        <h6>Мария</h6>
+      </div>
+      <div class="col-md-4">
+        <img src="customer2.jpg" class="rounded-circle mb-3" width="100" alt="Клиент">
+        <p>«Быстрая доставка и отличное качество!»</p>
+        <h6>Иван</h6>
+      </div>
+      <div class="col-md-4">
+        <img src="customer3.jpg" class="rounded-circle mb-3" width="100" alt="Клиент">
+        <p>«Рекомендую всем своим друзьям!»</p>
+        <h6>Ольга</h6>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="py-5 bg-light fade-in">
+  <div class="container">
+    <h2 class="text-center mb-4">Свяжитесь с нами</h2>
+    <form class="mx-auto" style="max-width:600px;">
+      <div class="mb-3"><input type="text" class="form-control" placeholder="Ваше имя" required></div>
+      <div class="mb-3"><input type="email" class="form-control" placeholder="Ваш email" required></div>
+      <div class="mb-3"><textarea class="form-control" rows="4" placeholder="Сообщение"></textarea></div>
+      <div class="text-center"><button type="submit" class="btn btn-success">Отправить</button></div>
+    </form>
+  </div>
+</section>
+
+<footer class="bg-dark text-white py-4 text-center">
+  <div class="container">
+    <p>© 2025 Healthy Food Restaurant</p>
+    <p>Email: contact@healthyfood.com | Телефон: +7 900 000 00 00</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
