@@ -4,7 +4,7 @@ body {
   padding: 0;
 }
 
-/* Секция hero (lagaet) */
+
 .lagaet {
   background: url("hero.jpg") center center/cover no-repeat;
   height: 100vh;
@@ -15,7 +15,7 @@ body {
   text-align: center;
 }
 
-/* Анимация появления */
+
 .fade-in {
   opacity: 0;
   transform: translateY(30px);
@@ -26,12 +26,12 @@ body {
   transform: translateY(0);
 }
 
-/* Иконки услуг */
+
 .icon {
   font-size: 3rem;
 }
 
-/* Карточки меню */
+
 .card {
   transition: transform 0.5s ease, box-shadow 0.5s ease;
   transform-style: preserve-3d;
@@ -45,12 +45,12 @@ body {
   object-fit: cover;
 }
 
-/* Отзывы */
+
 #reviews img {
   object-fit: cover;
 }
 
-/* Кнопки */
+
 .btn:active {
   transform: scale(0.95);
   transition: transform 0.1s;
